@@ -8,8 +8,8 @@ import (
 
 func createTransferT(t *testing.T) Transfer {
 	arg := CreateTransferParams{
-		FromAccountID: 1,
-		ToAccountID:   2,
+		FromAccountID: 2,
+		ToAccountID:   3,
 		Amount:        10,
 	}
 
