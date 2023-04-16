@@ -9,9 +9,9 @@ import (
 // Config stores all configuration of the application
 // The values are read by viper from a config file or environment variables
 type Config struct {
-	DBDriver      string `mapstructure:"DB_DRIVER" yaml:"db_driver"`
-	DBSource      string `mapstructure:"DB_SOURCE" yaml:"db_source"`
-	ServerAddress string `mapstructure:"SERVER_ADDRESS" yaml:"server_address"`
+	DBDriver      string `mapstructure:"DB_DRIVER" yaml:"DB_DRIVER"`
+	DBSource      string `mapstructure:"DB_SOURCE" yaml:"DB_SOURCE"`
+	ServerAddress string `mapstructure:"SERVER_ADDRESS" yaml:"SERVER_ADDRESS"`
 }
 
 var (
