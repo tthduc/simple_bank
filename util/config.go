@@ -32,7 +32,7 @@ func LoadConfig(path string) (config Config, err error) {
 		return
 	}
 
-	/* overwrite with the value of EVN variable by matching the uppercased keyy */
+	/* overwrite with the value of EVN variable by matching the uppercased keyyy */
 	viper.AutomaticEnv()
 
 	/* binding to cfg */
